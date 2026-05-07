@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Dataset
+data/*.csv
+data/*.zip
+
+# SQLite database
+database/*.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Models
+models/**/*.joblib
+models/**/*.pkl
+models/**/*.pickle
+
+# Outputs
+outputs/figures/
+outputs/metrics/
+outputs/reports/*.docx
+outputs/reports/*.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
